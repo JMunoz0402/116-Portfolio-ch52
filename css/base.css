@@ -1,16 +1,17 @@
 /* Varibles */
 :root {
-    --primary-color: #F5ECD0;
-    --secondary-color: #e2d2f9;
-    --netural-color: #832ff9;
-    --background-color:white;
-    --surface-color:#435def;
-    --lobster-font: 'Lobster', sans-serif;
-    --sans-font: 'DM Sans', sans-serif;
+    --primary-color: #50e2ff;
+    --secondary-color: #060606;
+    --netural-color: #53d5f9;
+    --background-color:rgb(9, 156, 7);
+    --surface-color:#007429;
+    
+    --lobster-font: "Lobster Two", serif;
+    --sans-font: "Roboto", serif;;
 }
 
 
-.center {
+.center-row {
     display: flex;
     justify-content: center;
     align-items: center;

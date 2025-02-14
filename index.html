@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/section.css">
     <title>116 Portfolio</title>
 </head>
 <body>
-    <header class="center center-header-sections">
-        <div class="logo-container">
-            <a href="#">
-                <h2>Jesus  Munoz</h2>
-            </a>
-        </div> 
+    <header class="center-row ">
+
 
             
             <nav>
@@ -30,7 +30,7 @@
                     </label>
                 </div>
                 <!-- Links or Options of the Menu -->
-                <div class="nav-link center">
+                <div class="nav-link center-row">
                     <a href="#">About Me</a>
                     <a href="#">Projects</a>
                     <a href="#">Experience</a>
@@ -42,13 +42,35 @@
         
     </header>
 
-    <section>
-        <!-- About Section -->
+    <section class="about-section center-row">
+        <div class="about-image-container center-row">
+            <img src="./img/my photo.png" alt="my amazing picture">
+        </div>
+
+        <div class="about-description-container center-column">
+            <h1>My role as dev</h1>
+            <h2>Jesus Munoz</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero ducimus quis, ipsam provident omnis, molestias porro officiis, quasi soluta pariatur voluptate ipsum at deleniti maiores alias. 
+            Alias sed enim, obcaecati labore ad veniam non ut ipsum repudiandae molestiae incidunt, iure omnis nesciunt distinctio? Quia, aut!</p>
+        </div>
     </section>
 
-    <h1>Title</h1>
-    <h2>Subtitle</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus explicabo dignissimos vel omnis reprehenderit</p>
-    <label class="text-label">Skill/Technology</label>
+    <section class="skills-section center-column">
+        <h2>My Skills</h2>
+
+        <div class="skills-list">
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+        </div>
+    </section>
+
 </body>
 </html>
